@@ -1,0 +1,7 @@
+# Ignore data files tracked by DVC
+data/
+!data/**/*.dvc
+
+# Ignore DVC cache
+.dvc/cache
+.dvc/tmp
