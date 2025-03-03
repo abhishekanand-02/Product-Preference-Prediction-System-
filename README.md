@@ -11,7 +11,7 @@
 - [Setup Instructions](#setup-instructions)
 - [Current Date](#current-date)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## 📖 Overview
 This project aims to develop a system that predicts whether a user will like a product based on its features and reviews. The goal is to enhance personalized recommendations and increase sales for e-commerce platforms.
@@ -42,9 +42,9 @@ The project is organized into the following directories:
 2. Run `./init_setup.py` to create the necessary directories and files.  
 3. Install dependencies listed in `requirements.txt`.  
 
-
+## 📅 Current Date
+This is where the current date is displayed: **Monday, March 03, 2025**.
 
 ## 🤝 Contributing
 Contributions are welcome! Please submit pull requests with detailed explanations of changes.
-
 
