@@ -1,0 +1,40 @@
+# FastAPI and Uvicorn for API
+fastapi
+uvicorn
+
+# HTML Template Rendering
+jinja2
+
+# Data Processing
+pandas
+numpy
+scikit-learn
+
+# NLP (for sentiment analysis on user reviews)
+nltk
+textblob
+
+# Machine Learning Models
+xgboost
+lightgbm
+tensorflow
+torch
+
+# Data Visualization
+matplotlib
+seaborn
+
+# DVC for Data Version Control
+dvc
+# dvc[gdrive]  # If using Google Drive
+# dvc[s3]      # If using AWS S3 (optional)
+# dvc[azure]   # If using Azure Blob Storage (optional)
+
+
+# Experimentation
+ipykernel
+
+# Miscellaneous
+tqdm
+python-dotenv
+requests
