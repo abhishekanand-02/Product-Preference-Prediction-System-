@@ -3,15 +3,6 @@
 ## 📅 Current Date : 
 **Monday, March 03, 2025**
 
-## 🚀 Table of Contents
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Proposed Solution](#proposed-solution)
-- [Project Structure](#project-structure)
-- [Setup Instructions](#setup-instructions)
-- [Current Date](#current-date)
-- [Contributing](#contributing)
-
 
 ## 📖 Overview
 This project aims to develop a system that predicts whether a user will like a product based on its features and reviews. The goal is to enhance personalized recommendations and increase sales for e-commerce platforms.
