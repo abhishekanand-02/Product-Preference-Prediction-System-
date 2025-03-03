@@ -1,0 +1,5 @@
+outs:
+- md5: ee866c4757bb72b417533a2a742a8fb2
+  size: 4744481
+  hash: md5
+  path: amazon.csv
