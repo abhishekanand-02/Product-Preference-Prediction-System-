@@ -21,12 +21,31 @@ The proposed solution is to build a **binary classification model** that predict
 This system aims to improve personalized recommendations and drive sales by better understanding user preferences.
 
 ## 🗂️ Project Structure
-The project is organized into the following directories:
-- **data**: Contains datasets used for training and testing.
-- **models**: Holds trained models and model definitions.
-- **scripts**: Includes scripts for data preprocessing, model training, and prediction.
-- **notebooks**: Jupyter notebooks for exploratory data analysis and prototyping.
-- **logs**: Stores logs from model training and system execution.
+The project is organized into the following directories and files:
+
+- **src/**: Contains all the source code files.
+  - **components/**: Contains various components of the system.
+    - `data_ingestion.py`: Handles data ingestion tasks.
+    - `data_transformation.py`: Responsible for transforming the raw data into usable formats.
+    - `model_trainer.py`: Includes code to train machine learning models.
+    - `model_evaluation.py`: Contains code to evaluate the model's performance.
+  - **pipelines/**: Holds the pipeline definitions for training and prediction.
+    - `training_pipeline.py`: Defines the pipeline for training the model.
+    - `prediction_pipeline.py`: Defines the pipeline for making predictions using the trained model.
+  - `logger.py`: Contains the logging mechanism for the project.
+  - `exception.py`: Handles custom exception handling.
+  - **utils/**: Contains utility functions.
+    - `utils.py`: Utility functions that are used across various components.
+  - `__init__.py`: Marks the directory as a Python package.
+
+- **experiment/**: Contains experiments related to model evaluation and prototyping.
+  - `experiments.ipynb`: Jupyter notebook for running and analyzing experiments.
+
+- **requirements.txt**: Contains the list of dependencies required for the project.
+- **requirements_dev.txt**: Contains development dependencies (e.g., for testing, linting).
+- **.gitignore**: Specifies which files and directories to ignore in version control.
+- **.github/workflows/main.yaml**: GitHub Actions workflow configuration for CI/CD.
+
 
 ## ⚙️ Setup Instructions
 1. Clone the repository.  
