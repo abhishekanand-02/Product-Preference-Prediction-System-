@@ -5,3 +5,10 @@ data/
 # Ignore DVC cache
 .dvc/cache
 .dvc/tmp
+
+
+logs/
+src/__pycache__/
+src/components/__pycache__/
+
+artifacts/
