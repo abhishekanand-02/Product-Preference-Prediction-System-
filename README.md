@@ -41,8 +41,6 @@ The project is organized into the following directories and files:
 - **experiment/**: Contains experiments related to model evaluation and prototyping.
   - `experiments.ipynb`: Jupyter notebook for running and analyzing experiments.
 
-- **requirements.txt**: Contains the list of dependencies required for the project.
-- **requirements_dev.txt**: Contains development dependencies (e.g., for testing, linting).
 - **.gitignore**: Specifies which files and directories to ignore in version control.
 - **.github/workflows/main.yaml**: GitHub Actions workflow configuration for CI/CD.
 
@@ -52,8 +50,6 @@ The project is organized into the following directories and files:
 2. Run `./init_setup.py` to create the necessary directories and files.  
 3. Install dependencies listed in `requirements.txt`.  
 
-## 📅 Current Date
-This is where the current date is displayed: **Monday, March 03, 2025**.
 
 ## 🤝 Contributing
 Contributions are welcome! Please submit pull requests with detailed explanations of changes.
